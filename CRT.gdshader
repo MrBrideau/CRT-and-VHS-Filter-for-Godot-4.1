@@ -9,7 +9,7 @@ the modified result to godotshaders.com.
 
 shader_type canvas_item;
 uniform sampler2D SCREEN_TEXTURE : hint_screen_texture, filter_nearest;
-render_mode blend_mix;
+
 //*** IMPORTANT! ***/ 
 // - If you are using this shader to affect the node it is applied to set 'overlay' to false (unchecked in the instepctor).
 // - If you are using this shader as an overlay, and want the shader to affect the nodes below in the Scene hierarchy,
